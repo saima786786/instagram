@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+}
+.app{
+    background-color: #fafafa;
+    
+}
+.appposts{
+    padding: 10px;
+    display: flex;
+}
+.appheader{
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background-color: white;
+    object-fit: contain;
+    padding: 10px;
+    border-bottom: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+}
+.appheaderimage{
+    object-fit: contain;
+    height: 50px;
+    width: 250px;
+}
+.appsignup{
+    display: flex;
+    flex-direction: column;
+}
